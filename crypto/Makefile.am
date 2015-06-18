@@ -392,6 +392,10 @@ libcrypto_la_SOURCES += ec/ecp_mont.c
 libcrypto_la_SOURCES += ec/ecp_nist.c
 libcrypto_la_SOURCES += ec/ecp_oct.c
 libcrypto_la_SOURCES += ec/ecp_smpl.c
+libcrypto_la_SOURCES += ec/ecp_nistputil.c
+libcrypto_la_SOURCES += ec/ecp_nistp224.c
+libcrypto_la_SOURCES += ec/ecp_nistp256.c
+libcrypto_la_SOURCES += ec/ecp_nistp521.c
 noinst_HEADERS += ec/ec_lcl.h
 
 # ecdh
